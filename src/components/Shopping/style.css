@@ -1,0 +1,40 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper {
+  width: 575px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  padding: 5px;
+}
+.itemContainer {
+  width: 280px;
+  height: 300px;
+  border: 1px solid #000;
+  border-radius: 10px;
+}
+.itemScrollContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.itemImage {
+  width: 100%;
+  height: 60%;
+  background-color: red;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.itemContentContainer {
+  width: 100%;
+  height: 40%;
+}
+p {
+    padding-left: 10px;
+}

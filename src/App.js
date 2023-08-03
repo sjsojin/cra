@@ -4,20 +4,22 @@ import And from "./components/And";
 import Style from "./components/Style";
 import Props from "./components/Props";
 import Use from "./components/Use";
+import Shopping from "./components/Shopping";
 
 function App() {
   const react = "리액트";
   return (
     <div>
+      <Shopping />
       <And />
       <Style />
       <Props data={react}>리액트으으</Props>
       <Use />
-      {/* {react === "리액트" ? (
+      {react === "리액트" ? (
         <h1>리액트입니다.</h1>
       ) : (
         <h2>리액트가 아닙니다.</h2>
-      )} */}
+      )}
     </div>
   );
 }

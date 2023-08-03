@@ -10,7 +10,7 @@ function Use() {
   }
   useEffect(() => {
     console.log("카운팅");
-  }, [cnt]);
+  }, [cnt]); 
   return (
     <div>
       <p>{cnt}</p>
